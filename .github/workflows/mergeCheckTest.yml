@@ -1,0 +1,11 @@
+name: 'Merge Check'
+
+on: merge_group
+
+jobs:
+  empty-job:
+    name: "Empty job"
+    runs-on: ubuntu-22.04
+    steps:
+      - name: 'Empty step'
+        run: pwd
